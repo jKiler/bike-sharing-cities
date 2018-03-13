@@ -1,0 +1,20 @@
+{
+    "cities": [
+      {
+        "name": "Bielsko-Biała",
+        "link": "https://bbbike.eu/"
+      },
+      {
+        "name": "Bydgoszcz",
+        "link": "https://www.bra.org.pl/"
+      },
+      {
+        "name": "Jastrzębie-Zdrój",
+        "link": "http://polskirowermiejski.pl/"
+      },
+      {
+        "name": "Kraków",
+        "link": "https://wavelo.pl/"
+      }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+  "cities": [
+    {
+      "name": "Białystok",
+      "link": "http://bikerbialystok.pl/"
+    },
+    {
+      "name": "Gliwice",
+      "link": "http://www.gliwickirower.pl/"
+    },
+    {
+      "name": "Grodzisk Mazowiecki",
+      "link": "http://www.rowery.grodzisk.pl/"
+    },
+    {
+      "name": "Konstancin Jeziorna",
+      "link": "http://www.konstancinskirower.pl/"
+    },
+    {
+      "name": "Kołobrzeg",
+      "link": "http://www.kolobrzeskirower.pl/"
+    },
+    {
+      "name": "Lublin",
+      "link": "http://www.lubelskirower.pl/"
+    },
+    {
+      "name": "Łódź",
+      "link": "http://www.lodzkirowerpubliczny.pl/"
+    },
+    {
+      "name": "Opole",
+      "link": "http://opolebike.pl/"
+    },
+    {
+      "name": "Ostrów Wielkopolski",
+      "link": "https://ostrowskirowermiejski.pl/"
+    },
+    {
+      "name": "Piaseczno",
+      "link": "https://www.piaseczynskirower.pl/"
+    },
+    {
+      "name": "Poznań",
+      "link": "http://www.poznanskirower.pl/"
+    },
+    {
+      "name": "Radom",
+      "link": "https://radomskirowermiejski.pl/"
+    },
+    {
+      "name": "Stalowa Wola",
+      "link": null
+    },
+    {
+      "name": "Szamotuły",
+      "link": "https://szamotuly.bike/"
+    },
+    {
+      "name": "Szczecin",
+      "link": "https://bikes-srm.pl/"
+    },
+    {
+      "name": "Warszawa",
+      "link": "http://de.veturilo.waw.pl/"
+    },
+    {
+      "name": "Wrocław",
+      "link": "http://www.wroclawskirower.pl/"
+    },
+    {
+      "name": "Świdnik",
+      "link": "http://www.lubelskirower.pl/"
+    }
+  ]
+}

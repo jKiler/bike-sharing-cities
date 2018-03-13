@@ -1,0 +1,12 @@
+{
+    "cities": [
+      {
+        "name": "Rzeszów",
+        "link": "http://rzeszow.roweres.pl/"
+      },
+      {
+        "name": "Toruń",
+        "link": "https://trm24.pl/"
+      }
+    ]
+}
