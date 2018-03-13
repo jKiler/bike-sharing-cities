@@ -9,8 +9,8 @@ export default class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/:city" component={City} />
+          <Route exact path="/bike-sharing-cities/" component={Home} />
+          <Route path="/bike-sharing-cities/:city" component={City} />
         </div>
       </Router>
     );

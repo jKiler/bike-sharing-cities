@@ -142,7 +142,7 @@ export default class Home extends Component {
           <Algolia src={algoliaLogo} alt="Algolia Search Logo"/>
         </a>
         {fireRedirect && (
-          <Redirect to={fixName(value)}/>
+          <Redirect to={`/bike-sharing-cities/${fixName(value)}`}/>
         )}
       </Wrapper>
     );

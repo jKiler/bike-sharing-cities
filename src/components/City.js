@@ -113,7 +113,7 @@ export default class City extends Component {
               {console.log(this.state.cities)}
             </div>
           )}
-            <GoBack to="/">Search again</GoBack>
+            <GoBack to="/bike-sharing-cities">Search again</GoBack>
           </Flex>
         </Wrapper>
       );
