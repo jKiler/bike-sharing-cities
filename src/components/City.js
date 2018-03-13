@@ -100,7 +100,7 @@ export default class City extends Component {
           <Flex>
           {loaded && cities.length === 1 ? (
             <div>
-              <Title>YES <span role="img">🚴</span></Title>
+              <Title>YES <span role="img" aria-label="emoji">🚴</span></Title>
               <Subtitle>
                 For more details visit this page:
                 <a href={cities[0].link} target="_blank" rel="noopener noreferrer">{cities[0].link}</a>
@@ -109,7 +109,7 @@ export default class City extends Component {
             </div>
           ) : (
             <div>
-              <Title>NO <span role="img">😕</span></Title>
+              <Title>NO <span role="img" aria-label="emoji">😕</span></Title>
               {console.log(this.state.cities)}
             </div>
           )}
