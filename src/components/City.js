@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import algoliasearch from 'algoliasearch';
 import styled from 'styled-components';
@@ -99,19 +99,19 @@ export default class City extends Component {
         <Wrapper>
           <Flex>
           {loaded && cities.length === 1 ? (
-            <div>
+            <Fragment>
               <Title>YES <span role="img" aria-label="emoji">🚴</span></Title>
               <Subtitle>
                 For more details visit this page:
                 <a href={cities[0].link} target="_blank" rel="noopener noreferrer">{cities[0].link}</a>
               </Subtitle>
               {console.log(this.state.cities)}
-            </div>
+            </Fragment>
           ) : (
-            <div>
+            <Fragment>
               <Title>NO <span role="img" aria-label="emoji">😕</span></Title>
               {console.log(this.state.cities)}
-            </div>
+            </Fragment>
           )}
             <GoBack to="/bike-sharing-cities">Search again</GoBack>
           </Flex>
