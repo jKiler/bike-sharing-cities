@@ -1,6 +1,5 @@
-import React from 'react';
-import { keyframes } from 'styled-components';
-import styled from 'styled-components';
+import React from 'react'
+import styled, { keyframes } from 'styled-components'
 
 const circular = keyframes`
   0%,
@@ -83,20 +82,20 @@ const Circular = ({ color, size }) => {
   `
 
   return (
-      <Spinner size={size}>
-          <Circle color={color} />
-          <Circle2 color={color} />
-          <Circle3 color={color} />
-          <Circle4 color={color} />
-          <Circle5 color={color} />
-          <Circle6 color={color} />
-          <Circle7 color={color} />
-          <Circle8 color={color} />
-          <Circle9 color={color} />
-          <Circle10 color={color} />
-          <Circle11 color={color} />
-          <Circle12 color={color} />
-      </Spinner>
+    <Spinner size={size}>
+      <Circle color={color} />
+      <Circle2 color={color} />
+      <Circle3 color={color} />
+      <Circle4 color={color} />
+      <Circle5 color={color} />
+      <Circle6 color={color} />
+      <Circle7 color={color} />
+      <Circle8 color={color} />
+      <Circle9 color={color} />
+      <Circle10 color={color} />
+      <Circle11 color={color} />
+      <Circle12 color={color} />
+    </Spinner>
   )
 }
 
